@@ -9,5 +9,14 @@
 <body>
     
     <h1>CljsPen</h1>
+    <script>
+    const url = 'https://github.com/login/oauth/authorize';
+    const client_id	='b5e8d4276135a7b312c1';
+    const redirect_uri = 'https://oneto018.github.io/CljsPen/';
+    const scope = 'public_repo';
+    const state	= 's45t';
+    const url = `https://github.com/login/oauth/authorize?url=${url}&client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scope}&state=${state}`;
+    console.log('url',url);
+    </script>
 </body>
 </html>
